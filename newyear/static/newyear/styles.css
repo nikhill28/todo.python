@@ -1,0 +1,12 @@
+body {
+    background-color: #f0f0f0; /* Set your desired background color here */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h6 {
+    color: white; /* Set text color for both headings */
+    background-color: #b90f0f; /* Set background color for both headings */
+    padding: 10px; /* Add some padding for better readability */
+}

@@ -1,0 +1,14 @@
+
+{% extends "tasks/layout.html" %}
+
+{% block bodys %}
+
+
+<form action="{ % url 'tasks:add_new_tasks % }" method="post">
+<input type="text" name="task">
+<input type ="submit">  
+</form>
+
+<a href="{% url 'tasks:index' %}" >see the task </a>
+
+{% endblock %}

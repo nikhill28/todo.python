@@ -1,0 +1,18 @@
+{% extends "tasks/layout.html" %}
+
+{% comment %} template inheritance {% endcomment %}
+{% block bodys %}
+
+
+<ul>
+{% for i in tasks%}
+<li>{{i}}</li>
+{% endfor%}
+</ul>
+
+{% comment %} link to url called add_new_tasks , We wrote name="add_new_tasks" {% endcomment %}
+<a href="{% url 'tasks:add_new_tasks' %}">Add neww tasksss</a> 
+
+{% endblock %}
+
+    
